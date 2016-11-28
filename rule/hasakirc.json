@@ -1,0 +1,11 @@
+{
+  "ng2": {
+    "describe": "angular2 cli",
+    "templates": [
+      {
+        "source": "./_template/init",
+        "keepFileName": true
+      }
+    ]
+  }
+}
