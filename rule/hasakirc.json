@@ -4,7 +4,19 @@
     "templates": [
       {
         "source": "./_template/init",
+        "target": "./",
         "keepFileName": true
+      }
+    ]
+  },
+  "ng2-component": {
+    "describe": "generate angular2 components",
+    "templates": [
+      {
+        "source": "./_template/component",
+        "target": "./src/app",
+        "keepFileName": false,
+        "placeholder": "myNewComponent"
       }
     ]
   }
